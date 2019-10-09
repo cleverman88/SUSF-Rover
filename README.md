@@ -2,16 +2,16 @@
 Example differential and network encoder.
 
 Pros:
->Seamless addition of new variables
->Clear to modify and define values 
->Modular
->Requires no extra work when changing variable names or adding new objects
+-Seamless addition of new variables
+-Clear to modify and define values 
+-Modular
+-Requires no extra work when changing variable names or adding new objects
 
 Cons:
->Requires standardised variables
->Requires exceptions if any variables stored in a command state are not to be compared or sent.
->Not data safe (doesn’t use get() and set() commands for custom data structures. This doesn’t really matter if ppl are careful when editing and setting variables )
->Requires rover data to be integer of float in order to be compared
+-Requires standardised variables
+-Requires exceptions if any variables stored in a command state are not to be compared or sent.
+-Not data safe (doesn’t use get() and set() commands for custom data structures. This doesn’t really matter if ppl are careful when editing and setting variables )
+-Requires rover data to be integer of float in order to be compared
 
 
 The code requires standardised variables which must be rover variables (defined in the roverVar class). 
